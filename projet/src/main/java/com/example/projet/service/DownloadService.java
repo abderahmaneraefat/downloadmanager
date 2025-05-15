@@ -15,4 +15,4 @@ public interface DownloadService {
     DownloadProgressDTO getDownloadProgress(Long taskId) throws DownloadException;
     List<DownloadProgressDTO> getAllDownloads();
     void deleteDownload(Long taskId) throws DownloadException;
-}
+} //bj
